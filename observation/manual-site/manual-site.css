@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    /* background: yellow;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 800px; */
+
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Opera and Firefox */
+}
+
+
+#container{
+
+    margin: 0;
+    height: 3600px;
+}
+h3{
+    margin-top: 300px;
+    margin-bottom: 400px;
+}
+
+.line{
+    position: absolute;
+    top: 200px;
+    width: 250px;
+    height: 1.5px;
+    background-color: black;
+
+    animation-name: line-move;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.line2{
+    position: absolute;
+    top: 450px;
+    width: 200px;
+    height: 1.5px;
+    background-color: black;
+
+    animation-name: line-move2;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes line-move {
+    0%{right:0%;}
+    25%{right:20%;}
+    40%{right:40%;}
+    50%{right:60%;}
+    60%{right:40%;}
+    75%{right:20%;}
+    100%{right:0%;}
+}
+
+@keyframes line-move2 {
+    0%{left:0%;}
+    25%{left:20%;}
+    40%{left:40%;}
+    50%{left:60%;}
+    60%{left:40%;}
+    75%{left:20%;}
+    100%{left:0%;}
+}
+
+
+.text{
+    font-size: 37px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 200px;
+
+    font-family: big-caslon-fb, serif;
+
+}
+
+
+    .step1{
+        text-align: right;
+        width: 400px;
+        clear: both;
+        margin-top: 0;
+    }
+    .step2{
+        width: 400px;
+        float: right;
+    }
+    .step3{
+        text-align: right;
+        width: 400px;
+        clear: both;
+    }
+    .problems{
+        text-align: right;
+        width: 400px;
+        clear: both;
+        margin-top: 150px;
+    }
+    .solutions{
+        width: 400px;
+        float: right;
+    }
+    .modes{
+        text-align: right;
+        width: 400px;
+        clear: both;
+        margin-top: 400px;
+    }
+    .colors{
+
+        width: 400px;
+        float: right;
+    }
+
+    #red:hover{background:red; color:white;}
+    #orange:hover{background:orange;color:white;}
+    #deepyellow:hover{background:#ffd72e;color:white;}
+    #yellow:hover{background: #fcf305;color:white;}
+    #lightyellow:hover{background:lightyellow;color:white;}
+    #green:hover{background:#00ff21;color:white;}
+    #lightgreen:hover{background:lightgreen;color:white;}
+    #cyan:hover{background: cyan;color:white;}
+    #lightblue:hover{background:lightblue;color:white;}
+    #skyblue:hover{background: skyblue;color:white;}
+    #blue:hover{background: blue;color:white;}
+    #deepblue:hover{background:#002dcd;color:white;}
+    #bluepurple:hover{background:#5201ff;color:white;}
+    #purple:hover{background: purple;color:white;}
+    #brown:hover{background: brown;color:white;}
+    #white:hover{background: white;color:white;}
+    #milkwhite:hover{background: #fff8ec;color:white;}
+    #pinkwhite:hover{background: #fff5fd;color:white;}
+    #greenwhite:hover{background: #fafff5;color:white;}
+    #bluewhite:hover{background: #f4fbff;color:white;}
