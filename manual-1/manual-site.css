@@ -138,3 +138,102 @@ h3{
     #pinkwhite:hover{background: #fff5fd;color:white;}
     #greenwhite:hover{background: #fafff5;color:white;}
     #bluewhite:hover{background: #f4fbff;color:white;}
+
+
+    @media (hover: none){
+
+    body{
+        background-color:#ffe600;
+        margin: 0;
+        color: black;
+
+    }
+
+    #container{
+
+    }
+
+    h3{
+
+        margin-top: 800px;
+        margin-bottom: 800px;
+        float: right;
+        /* border-style: dashed;
+        border-width: 6px; */
+
+        padding-left: 20px;
+        padding-top: 20px;
+
+        width: 320px;
+        height: 320px;
+        text-align: left;
+
+        animation-name:bg-color;
+        animation-duration: 8s;
+        animation-iteration-count: infinite;
+    }
+
+    .text{
+        font-size: 53px;
+        font-weight: bold;
+        margin: 500px;
+    }
+    .step1{
+        text-align: right;
+        width: 400px;
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+    .step2{
+        width: 400px;
+        float: right;
+        margin-bottom: 40px;
+    }
+    .step3{
+        text-align: right;
+        width: 400px;
+        clear: both;
+    }
+    .problems{
+        text-align: right;
+        width: 400px;
+        clear: both;
+        margin-top: 150px;
+    }
+    .solutions{
+        margin-top: 40px;
+        width: 400px;
+        float: right;
+    }
+    .modes{
+        text-align: right;
+        width: 400px;
+        clear: both;
+        margin-top: 400px;
+    }
+    .colors{
+        margin-top: 40px;
+        width: 400px;
+        float: right;
+    }
+
+    .line{
+        display:none;
+    }
+    .line2{
+        display:none;
+    }
+
+    @keyframes bg-color{
+        from{background-color: #9ac7e0;}
+        to{background-color: #e499cd;}
+    }
+
+    }
+
+    .cover{
+        margin: 0;
+        background: #22242f;
+        height: 812px;
+        z-index: 1;
+    }
