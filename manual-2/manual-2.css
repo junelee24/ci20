@@ -1,0 +1,429 @@
+body{
+    margin: 0;
+    /* background: yellow;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 800px; */
+
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Opera and Firefox */
+}
+
+
+#container{
+
+    margin: 0;
+    height: 3600px;
+    color:#dddddd;
+}
+h3{
+    margin-top: 150px;
+    margin-bottom: 200px;
+    margin-left: 170px;
+    color:#dddddd;
+}
+
+
+
+.line{
+    position: absolute;
+    top: 174px;
+    width: 650px;
+    height: 3px;
+    left: 28%;
+    background-color: #dddddd;
+
+    /* animation-name: line-move;
+    animation-duration: 15s;
+    animation-iteration-count: infinite; */
+
+    animation-name:line-color;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+/* .line2{
+    position: absolute;
+    top: 170px;
+    width: 200px;
+    height: 1.5px;
+    background-color: #dddddd;
+
+    animation-name: line-move2;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+} */
+
+/* @keyframes line-move {
+
+    0%{right: 0%;}
+    25%{right: 50%;}
+    50%{right:100%;}
+    60%{right: 50%;}
+    100%{right:0%;}
+} */
+
+@keyframes line-color{
+    from{background-color: #ff1d1d;}
+    to{background-color: #1658ff;}
+}
+
+/* @keyframes line-move2 {
+    0%{left: 0%;}
+    25%{left: 50%;}
+    50%{left:100%;}
+    75%{left: 50%;}
+    100%{left:0%;}
+} */
+
+
+.text{
+    font-size: 37px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 100px;
+
+    font-family: big-caslon-fb, serif;
+
+}
+
+
+    .step1{
+        text-align: right;
+        width: 400px;
+        clear: both;
+        margin-top: 0;
+    }
+    .step1:hover{color: #303030;}
+    .step2{
+        width: 400px;
+        float: right;
+    }
+    .step2:hover{color: #303030;}
+    .step3{
+        text-align: right;
+        width: 400px;
+        clear: both;
+    }
+    .step3:hover{color: #303030;}
+    .problems{
+        text-align: right;
+        width: 400px;
+        clear: both;
+        margin-top: 150px;
+    }
+    .problems:hover{color: #303030;}
+    .solutions{
+        width: 400px;
+        float: right;
+    }
+    .solutions:hover{color: #303030;}
+    .modes{
+        text-align: right;
+        width: 400px;
+        clear: both;
+        margin-top: 400px;
+    }
+    .modes:hover{color: #303030;}
+    .colors{
+        width: 400px;
+        float: right;
+    }
+    .colors:hover{color: #303030;}
+
+    #red:hover{background:red; color:white;}
+    #orange:hover{background:orange;color:white;}
+    #deepyellow:hover{background:#ffd72e;color:white;}
+    #yellow:hover{background: #fcf305;color:white;}
+    #lightyellow:hover{background:lightyellow;color:white;}
+    #green:hover{background:#00ff21;color:white;}
+    #lightgreen:hover{background:lightgreen;color:white;}
+    #cyan:hover{background: cyan;color:white;}
+    #lightblue:hover{background:lightblue;color:white;}
+    #skyblue:hover{background: skyblue;color:white;}
+    #blue:hover{background: blue;color:white;}
+    #deepblue:hover{background:#002dcd;color:white;}
+    #bluepurple:hover{background:#5201ff;color:white;}
+    #purple:hover{background: purple;color:white;}
+    #brown:hover{background: brown;color:white;}
+    #white:hover{background: white;color:white;}
+    #milkwhite:hover{background: #fff8ec;color:white;}
+    #pinkwhite:hover{background: #fff5fd;color:white;}
+    #greenwhite:hover{background: #fafff5;color:white;}
+    #bluewhite:hover{background: #f4fbff;color:white;}
+
+
+
+.redcircle{
+    width: 20px;
+    height: 20px;
+    /* border-radius: 40px; */
+    background-color: #f0f0f0;
+    position: absolute;
+    top: 10%;
+    left: 43%;
+}
+.redcircle:hover{ background-color: #ff1d1d;}
+
+.greencircle{
+    width: 20px;
+    height: 20px;
+    /* border-radius: 40px; */
+    background-color: #f0f0f0;
+    position: absolute;
+    top: 10%;
+    left: 49.2%;
+}
+.greencircle:hover{ background-color:#20ec45; }
+
+.bluecircle{
+    width: 20px;
+    height: 20px;
+    /* border-radius: 40px; */
+    background-color: #f0f0f0;
+    position:absolute;
+    top: 10%;
+    left: 55.2%;
+}
+.bluecircle:hover{ background-color: #1658ff;}
+
+
+/* get element ny tag name */
+.spine{
+    font-size: 37px;
+    font-family: big-caslon-fb, serif;
+    color: #dddddd;
+}
+.plus{
+    position: absolute;
+    left: 49%;
+    top: 53%;
+}
+.minus{
+    position: absolute;
+    left: 49.2%;
+    top: 70%;
+}
+.plus2{
+    position: absolute;
+    left: 49%;
+    top: 93%;
+}
+.minus2{
+    position: absolute;
+    left: 49.2%;
+    top: 110%;
+}
+.plus3{
+    position: absolute;
+    left: 49%;
+    top: 133%;
+}
+.minus3{
+    position: absolute;
+    left: 49.2%;
+    top: 150%;
+}
+.plus4{
+    position: absolute;
+    left: 49%;
+    top: 173%;
+}
+.minus4{
+    position: absolute;
+    left: 49.2%;
+    top: 190%;
+}
+.plus5{
+    position: absolute;
+    left: 49%;
+    top: 213%;
+}
+.minus5{
+    position: absolute;
+    left: 49.2%;
+    top: 230%;
+}
+.plus6{
+    position: absolute;
+    left: 49%;
+    top: 253%;
+}
+.minus6{
+    position: absolute;
+    left: 49.2%;
+    top: 270%;
+}
+.plus7{
+    position: absolute;
+    left: 49%;
+    top: 293%;
+}
+.minus7{
+    position: absolute;
+    left: 49.2%;
+    top: 310%;
+}
+.plus8{
+    position: absolute;
+    left: 49%;
+    top: 333%;
+}
+.minus8{
+    position: absolute;
+    left: 49.2%;
+    top: 350%;
+}
+.plus9{
+    position: absolute;
+    left: 49%;
+    top: 373%;
+}
+.minus9{
+    position: absolute;
+    left: 49.2%;
+    top: 390%;
+}
+.plus10{
+    position: absolute;
+    left: 49%;
+    top: 413%;
+}
+.minus10{
+    position: absolute;
+    left: 49.2%;
+    top: 430%;
+}
+.plus11{
+    position: absolute;
+    left: 49%;
+    top: 453%;
+}
+.minus11{
+    position: absolute;
+    left: 49.2%;
+    top: 470%;
+}
+.plus12{
+    position: absolute;
+    left: 49%;
+    top: 493%;
+}
+.minus12{
+    position: absolute;
+    left: 49.2%;
+    top: 510%;
+}
+.plus13{
+    position: absolute;
+    left: 49%;
+    top: 533%;
+}
+
+
+
+
+
+
+    @media (hover: none){
+
+    body{
+        background-color:#ffe600;
+        margin: 0;
+        color: black;
+
+    }
+
+    #container{
+
+    }
+
+    h3{
+
+        margin-top: 800px;
+        margin-bottom: 800px;
+        float: right;
+        /* border-style: dashed;
+        border-width: 6px; */
+
+        padding-left: 20px;
+        padding-top: 20px;
+
+        width: 320px;
+        height: 320px;
+        text-align: left;
+
+        animation-name:bg-color;
+        animation-duration: 8s;
+        animation-iteration-count: infinite;
+    }
+
+    .text{
+        font-size: 53px;
+        font-weight: bold;
+        margin: 500px;
+    }
+    .step1{
+        text-align: right;
+        width: 400px;
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+    .step2{
+        width: 400px;
+        float: right;
+        margin-bottom: 40px;
+    }
+    .step3{
+        text-align: right;
+        width: 400px;
+        clear: both;
+    }
+    .problems{
+        text-align: right;
+        width: 400px;
+        clear: both;
+        margin-top: 150px;
+    }
+    .solutions{
+        margin-top: 40px;
+        width: 400px;
+        float: right;
+    }
+    .modes{
+        text-align: right;
+        width: 400px;
+        clear: both;
+        margin-top: 400px;
+    }
+    .colors{
+        margin-top: 40px;
+        width: 400px;
+        float: right;
+    }
+
+    .line{
+        display:none;
+    }
+    .line2{
+        display:none;
+    }
+
+    @keyframes bg-color{
+        from{background-color: #9ac7e0;}
+        to{background-color: #e499cd;}
+    }
+
+    }
+
+    .cover{
+        margin: 0;
+        background: #22242f;
+        height: 812px;
+        z-index: 1;
+    }
