@@ -1,0 +1,298 @@
+
+html, body {
+    width: 100%;
+
+    margin: 0;
+    background-color: #ab6084;
+
+
+}
+
+.juniper{
+    font-size: 150px;
+    color: #995677;
+    font-family: benton-modern-display-extra, serif;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 8px;
+
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.hours{
+    font-family: mr-eaves-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 20px;
+    color:  #884a69;
+
+    float: right;
+    margin-right: 10%;
+    margin-top: -7%;
+}
+
+.cafe{
+    font-size: 150px;
+    color: #f1e5da;
+    font-family: mr-eaves-sans, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: -5px;
+    transform: skewX(-7deg);
+
+
+    margin-top: -15%;
+    margin-left: 22%;
+}
+
+
+.espresso{
+    float: right;
+    width: 40%;
+    margin-top: -36.5%;
+}
+.coffee{
+    float: left;
+    width: 50%;
+}
+.tea{
+    clear: both;
+    width: 50%;
+
+}
+
+.menu{
+    font-family: benton-modern-display, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    color: #995677;
+
+    margin-top: 30%;
+}
+.category{
+    font-family: benton-modern-display, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+    color: #f1e5da;
+    height: 500%;
+
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 40%;
+}
+
+
+#coffeeinfo{
+
+
+    font-family: mr-eaves-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 37px;
+
+    float: left;
+}
+
+#teainfo{
+
+
+    font-family: mr-eaves-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 37px;
+
+    float: left;
+
+}
+
+#espressoinfo{
+
+
+    font-family: mr-eaves-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 37px;
+
+    float: left;
+}
+
+
+@media (hover: none){
+
+body,html{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 140%;
+
+}
+.juniper{
+    font-size: 250px;
+    color: #995677;
+    font-family: benton-modern-display-extra, serif;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 8px;
+    margin:0;
+    margin-top: 20%;
+    text-align: center;
+
+
+}
+.cafe{
+    font-size: 250px;
+    color: #f1e5da;
+    font-family: mr-eaves-sans, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: -5px;
+    transform: skewX(-7deg);
+    margin: 0;
+    margin-top: -55%;
+    margin-left: 40%;
+
+}
+
+.hours{
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 23%;
+    width: 50%;
+    font-size: 50px;
+}
+
+.coffee{
+    margin: 0;
+    width: 100%;
+    font-size: 150px;
+    text-align: center;
+    margin-top: 10%;
+}
+#coffeeinfo{
+    font-size: 60px;
+    margin-left: 6%;
+    margin-bottom: 10%;
+}
+
+.tea{
+    margin: 0;
+    width: 100%;
+    font-size: 150px;
+    text-align: center;
+    margin-top: 10%;
+}
+#teainfo{
+    font-size: 60px;
+    margin-left: 9%;
+}
+.espresso{
+    margin: 0;
+    width: 100%;
+    font-size: 150px;
+    text-align: center;
+    margin-top: 10%;
+}
+#espressoinfo{
+    font-size: 60px;
+}
+
+}
+
+@media (max-width: 1000px){
+
+    body,html{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 140%;
+
+    }
+
+    body,html{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 140%;
+    }
+    .juniper{
+        font-size: 250px;
+        color: #995677;
+        font-family: benton-modern-display-extra, serif;
+        font-weight: 600;
+        font-style: normal;
+        letter-spacing: 8px;
+        margin:0;
+        margin-top: 20%;
+        text-align: center;
+
+
+    }
+    .cafe{
+        font-size: 250px;
+        color: #f1e5da;
+        font-family: mr-eaves-sans, sans-serif;
+        font-weight: 700;
+        font-style: italic;
+        letter-spacing: -5px;
+        transform: skewX(-7deg);
+        margin: 0;
+        margin-top: -55%;
+        margin-left: 40%;
+
+    }
+
+    .hours{
+        margin: 0;
+        line-height: 50px;
+        text-align: center;
+        margin-top: 23%;
+        width: 50%;
+        font-size: 50px;
+        color:#f1e5da;
+    }
+
+    .coffee{
+        margin: 0;
+        width: 100%;
+        font-size: 150px;
+        text-align: center;
+        margin-top: 10%;
+    }
+    #coffeeinfo{
+        font-size: 60px;
+        margin-left: 6%;
+        margin-bottom: 10%;
+    }
+
+    .tea{
+        margin: 0;
+        width: 100%;
+        font-size: 150px;
+        text-align: center;
+        margin-top: 10%;
+    }
+    #teainfo{
+        font-size: 60px;
+        margin-left: 9%;
+    }
+    .espresso{
+        margin: 0;
+        width: 100%;
+        font-size: 150px;
+        text-align: center;
+        margin-top: 10%;
+    }
+    #espressoinfo{
+        font-size: 60px;
+    }
+
+    }
+
+
+}
