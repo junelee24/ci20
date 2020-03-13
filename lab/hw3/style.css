@@ -1,0 +1,17 @@
+body{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.sidebar{
+    flex: 0 0 150px;
+    margin-left: 2%;
+    margin-top: 5%;
+    line-height: 50px;
+    letter-spacing: 5px;
+}
+.content{
+    flex: 1;
+
+}
