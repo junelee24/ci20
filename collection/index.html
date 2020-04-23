@@ -1,111 +1,48 @@
-
 <!doctype html>
 <html>
 <head>
-  <title>Collection Progress</title>
+  <title>Collection Demo</title>
   <script src="script.js"></script>
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://use.typekit.net/tqu4qsq.css">
 </head>
-<body>
+<body id="index">
 
-    <!-- <div class="sidebar">
-        <div class="year">year</div>
-        <div class="effort">effort</div>
-        <div class="satis">satisfaction</div>
-        <div class="locat">location</div>
-        <div class="orient">orientation</div>
-    </div> -->
-
-    <ul style="list-style-type:none;">
-
-             <li><a href="#" class="filter" onclick="show('.items');">overview</a></li>
-<br>
-              <li><a href="#" class="filter" onclick="show('.seven');">2017</a></li>
-              <li><a href="#" class="filter" onclick="show('.eight');">2018</a></li>
-              <li><a href="#" class="filter" onclick="show('.nine');">2019</a></li>
-              <li><a href="#" class="filter" onclick="show('.twenty');">2020</a></li>
-
+  <nav>
+    <li><a href="#" class="filters" onclick="show('.items');">overview</a></li>
 <br>
 
-              <li><a href="#" class="filter" onclick="show('.least');">least effort</a></li>
-              <li><a href="#" class="filter" onclick="show('.most');">most effort</a></li>
-
+<br>
+    <li><a href="#" class="filters" onclick="show('.seven');">2017</a></li>
+    <li><a href="#" class="filters" onclick="show('.eight');">2018</a></li>
+    <li><a href="#" class="filters" onclick="show('.nine');">2019</a></li>
+    <li><a href="#" class="filters" onclick="show('.twenty');">2020</a></li>
+<br>
+    <li><a href="#" class="filters" onclick="show('.illustration');">illustration</a></li>
+    <li><a href="#" class="filters" onclick="show('.fine_arts');"> fine arts</a></li>
+    <li><a href="#" class="filters" onclick="show('.photography');">photography</a></li>
+    <li><a href="#" class="filters" onclick="show('.graphic_design');">graphic design</a></li>
+    <li><a href="#" class="filters" onclick="show('.product');">product</a></li>
+    <li><a href="#" class="filters" onclick="show('.fashion');">fashion</a></li>
+<br>
+    <li><a href="#" class="filters" onclick="show('.high_effort');">high effort</a></li>
+    <li><a href="#" class="filters" onclick="show('.normal_effort');">normal effort</a></li>
+    <li><a href="#" class="filters" onclick="show('.no_effort');">no effort</a></li>
+<br>
+    <li><a href="#" class="filters" onclick="show('.college_portfolio');">college portfolio</a></li>
+    <li><a href="#" class="filters" onclick="show('.for_fun');">fun</a></li>
+    <li><a href="#" class="filters" onclick="show('.parsons');">parsons</a></li>
+<br>
+    <li><a href="#" class="filters" onclick="show('.icloud');">online</a></li>
+    <li><a href="#" class="filters" onclick="show('.Long_Island');">Long Island</a></li>
+    <li><a href="#" class="filters" onclick="show('.Manhattan');">New York City</a></li>
 <br>
 
-              <li><a href="#" class="filter" onclick="show('.not');">not satisfied</a></li>
-              <li><a href="#" class="filter" onclick="show('.adeq');">adequate</a></li>
-              <li><a href="#" class="filter" onclick="show('.very');">very satisfied</a></li>
 
-<br>
+  </nav>
 
-              <li><a href="#" class="filter" onclick="show('.bedr');">bedroom</a></li>
-              <li><a href="#" class="filter" onclick="show('.bedrnyc');">bedroom [nyc]</a></li>
-              <li><a href="#" class="filter" onclick="show('.ipad');">ipad</a></li>
-              <li><a href="#" class="filter" onclick="show('.hardr');">hardrive</a></li>
-
-<br>
-
-              <li><a href="#" class="filter" onclick="show('.horiz');">horizontal</a></li>
-              <li><a href="#" class="filter" onclick="show('.verti');">vertical</a></li>
-              <li><a href="#" class="filter" onclick="show('.sq');">square</a></li>
-
-
-          </ul>
-
-<div class="container">
-
-          <div class="items eight least">1.untitled</div>
-          <div class="items nine least">2.untitled</div>
-          <div class="items nine most">3.untitled</div>
-          <div class="items seven most">4.untitled</div>
-          <div class="items seven most">5.untitled</div>
-          <div class="items eight least">6.untitled</div>
-          <div class="items nine most">7.untitled</div>
-          <div class="items nine most">8.untitled</div>
-          <div class="items seven most">9.untitled</div>
-          <div class="items seven least">10.untitled</div>
-          <div class="items eight">11.untitled</div>
-          <div class="items nine">12.untitled</div>
-          <div class="items nine">13.untitled</div>
-          <div class="items seven">14.untitled</div>
-          <div class="items seven">15.untitled</div>
-          <div class="items eight">16.untitled</div>
-          <div class="items nine">17.untitled</div>
-          <div class="items nine">18.untitled</div>
-          <div class="items seven">19.untitled</div>
-          <div class="items seven">20.untitled</div>
-          <div class="items eight">21.untitled</div>
-          <div class="items nine">22.untitled</div>
-          <div class="items nine">23.untitled</div>
-          <div class="items seven">24.untitled</div>
-          <div class="items seven">25.untitled</div>
-          <div class="items eight">26.untitled</div>
-          <div class="items nine">27.untitled</div>
-          <div class="items nine">28.untitled</div>
-          <div class="items seven">29.untitled</div>
-          <div class="items seven">30.untitled</div>
-          <div class="items eight">31.untitled</div>
-          <div class="items nine">32.untitled</div>
-          <div class="items nine">33.untitled</div>
-          <div class="items seven">34.untitled</div>
-          <div class="items seven">35.untitled</div>
-          <div class="items eight">36.untitled</div>
-          <div class="items nine">37.untitled</div>
-          <div class="items nine">38.untitled</div>
-          <div class="items seven">39.untitled</div>
-          <div class="items seven">40.untitled</div>
-          <div class="items eight">41.untitled</div>
-          <div class="items nine">42.untitled</div>
-          <div class="items nine">43.untitled</div>
-          <div class="items seven">44.untitled</div>
-          <div class="items seven">45.untitled</div>
-          <div class="items eight">46.untitled</div>
-          <div class="items nine">47.untitled</div>
-          <div class="items nine">48.untitled</div>
-          <div class="items seven">49.untitled</div>
-          <div class="items seven">50.untitled</div>
-
-</div>
+  <div class="result">
+  </div>
 
 </body>
 </html>
